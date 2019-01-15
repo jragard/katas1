@@ -7,24 +7,24 @@ function oneThroughTwenty() {
     return numbers
 }
 
-// function evensToTwenty() {
-//     // Return an array with the even numbers from 1 to 20
-//     const numbers = []
-//     for (let counter = 2; counter < 21; counter += 2) {
-//         numbers.push(counter)
-//     }
-//     return numbers
-// }
+function evensToTwenty() {
+    // Return an array with the even numbers from 1 to 20
+    const numbers = []
+    for (let counter = 2; counter < 21; counter += 2) {
+        numbers.push(counter)
+    }
+    return numbers
+}
 
-// function oddsToTwenty() {
-//     // Return an array with the odd numbers from 1 - 20
-//     const numbers = []
-//     for (let counter = 1; counter < 20; counter += 2) {
-//         numbers.push(counter)
-//     }
+function oddsToTwenty() {
+    // Return an array with the odd numbers from 1 - 20
+    const numbers = []
+    for (let counter = 1; counter < 20; counter += 2) {
+        numbers.push(counter)
+    }
 
-//     return numbers;
-// }
+    return numbers;
+}
 
 // function multiplesOfFive() {
 //     // Return an array with the multiples of 5 up to 100
